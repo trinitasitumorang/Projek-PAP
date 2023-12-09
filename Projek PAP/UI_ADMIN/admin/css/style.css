@@ -1,0 +1,220 @@
+body {
+  background: #1c2542; /* Ganti dengan warna biru yang diinginkan */
+  color: #1c2542;
+}
+
+.breadcrumb li.active {
+  color: #000; /* Ganti dengan warna hitam yang diinginkan */
+}
+
+a.list-group-item {
+  color: #283666; /* Ganti dengan warna biru yang diinginkan */
+}
+
+a.list-group-item .badge {
+  background-color: #1c2542;
+}
+
+.imgfasilitas {
+  width: 55px;
+  height: 40px;
+}
+
+/* Logos */
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+#footer img {
+  height: 1.5rem;
+}
+
+/* Navbar */
+
+.navbar {
+  min-height: 33px !important;
+  margin-bottom: 0;
+  border-radius: 0;
+  border: none;
+}
+
+.navbar-nav>li>a,
+.navbar-brand {
+  padding-top: 6px !important;
+  padding-bottom: 0 !important;
+  height: 33px;
+}
+
+.navbar-default {
+  background-color: #283666;
+}
+
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5c6290;
+}
+
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #5c8e90;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #5c8e90;
+  background-color: #3a506b;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus {
+  background-color: #3a506b;
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+  color: #5c8e90;
+  background-color: #3a506b;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #3a506b;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #3a506b;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #5c8e90;
+}
+
+/* Custom */
+
+.main-color-bg {
+  background-color: #283666 !important;
+  border-color: #283666 !important;
+  color: #ffffff !important;
+}
+
+/* Header */
+
+#header {
+  background: #1c2542; /* Ganti dengan warna biru yang diinginkan */
+  color: hsl(0, 0%, 96%);
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#header small {
+  color: rgb(255, 255, 255);
+}
+
+#header .create {
+  padding-top: 20px;
+}
+
+/* Breadcrumb */
+
+.breadcrumb {
+  background: #cccccc;
+  color: #5a696f;
+}
+
+.breadcrumb a {
+  color: #0a91c6;
+}
+
+/* Progress Bars */
+
+.progress-bar {
+  background: #4365d3;
+  color: #ffffff;
+}
+
+.dash-box {
+  text-align: center;
+}
+
+#login {
+  margin-top: 30px;
+}
+
+/* Footer */
+
+#footer {
+  background: #1c2542; /* Ganti dengan warna biru yang diinginkan */
+  color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  margin-top: 0px;
+
+}
+
+/* Buttons */
+
+.btn-primary {
+  background-color: #1c2542!important;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3a506b!important;
+  border: none;
+  transition: all .3s ease;
+}
+
+.btn-danger {
+  background-color: #db3232!important;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c52d2d!important;
+  border: none;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #ecf0f1;
+  }
+}
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, 
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #5c8e90;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a, 
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover, 
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+    color: #5c8e90;
+    background-color: #3a506b;
+  }
